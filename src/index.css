@@ -1,0 +1,57 @@
+#body {
+  font-family: 'Lato', sans-serif;
+}
+
+#quiz_div, #quiz_results {
+  visibility: hidden;
+  background: #d2def2;
+  text-align: center;
+}
+
+#hide_reading_portion {
+  margin-left: 10px;
+  background: #d2def2;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  float: left;
+}
+
+#q1, #q2, #q3, #q4 {
+  width: 200px;
+}
+
+#next_button {
+  background: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  font-size: 16px;
+  transition-duration: .5s;
+  margin-top: 15px;
+}
+
+#next_button:hover {
+  background: green;
+  border: 1px solid green;
+  color: white;
+  cursor: pointer;
+}
+
+#fin {
+  background: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  font-size: 16px;
+  transition-duration: .5s;
+  margin-top: 15px;
+}
+
+#fin:hover {
+  background: green;
+  border: 1px solid green;
+  color: white;
+  cursor: pointer;
+}
